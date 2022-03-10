@@ -132,6 +132,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+/realestate_venv
+/static
 
 # Spyder project settings
 .spyderproject
