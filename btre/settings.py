@@ -117,8 +117,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
 STATIC_ROOT = Path(__file__).joinpath(BASE_DIR, "static")
-STATIC_URL = 'static/'
-STATIC_DIRS = [
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [
     Path(__file__).joinpath(BASE_DIR, "btre/static")
 ]
 # Default primary key field type
